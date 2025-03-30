@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40fe2200-ba27-48cd-911d-e7c8097fd384" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/config-parser-demo/convert-ini-json.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
