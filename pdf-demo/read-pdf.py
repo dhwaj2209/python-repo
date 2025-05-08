@@ -1,12 +1,7 @@
-from pdfquery import PDFQuery
-#pdf_reader = PdfReader("../sources/5-pages.pdf")
-pdf = PDFQuery("../sources/basic-text.pdf")
-pdf.load()
+import camelot
 
-# Use CSS-like selectors to locate the elements
-text_elements = pdf.pq('LTTextLineHorizontal')
+# extract all the tables in the PDF file
+abc = camelot.read_pdf("../sources/basic-text.pdf") #address of file location
 
-# Extract the text from the elements
-text = [t.text for t in text_elements]
-
-print(text)
+# print the first table as Pandas DataFrame
+print(abc[0].df)
