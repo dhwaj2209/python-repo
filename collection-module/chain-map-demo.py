@@ -1,4 +1,6 @@
 # Collection Module- > ChainMap class
+import requests
+
 
 from collections import ChainMap
 
