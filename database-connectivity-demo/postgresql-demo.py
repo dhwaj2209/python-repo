@@ -1,10 +1,10 @@
 # Postgresql in Python - CRUD Operations
 
 import psycopg2
-conn = psycopg2.connect(database="postgres",
+conn = psycopg2.connect(database="employee",
                         user="postgres",
                         password="admin",
-                        host="127.0.0.1",
+                        host="localhost",
                         port="5432")
 print("Connection established")
 

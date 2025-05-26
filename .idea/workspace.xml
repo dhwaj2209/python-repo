@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40fe2200-ba27-48cd-911d-e7c8097fd384" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/database-connectivity-demo/postgresql-demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-connectivity-demo/sqlite-demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/database-connectivity-demo/sqlite-demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database-connectivity-demo/postgresql-demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/database-connectivity-demo/postgresql-demo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
