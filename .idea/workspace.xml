@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40fe2200-ba27-48cd-911d-e7c8097fd384" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/database-connectivity-demo/postgresql-demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/database-connectivity-demo/postgresql-demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database-connectivity-demo/mysql-demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +35,9 @@
     &quot;accountId&quot;: &quot;4c0aa8d8-db60-44db-803a-8385569c18b9&quot;
   }
 }</component>
+  <component name="LLMProjectSettings">
+    <option name="turned_on" value="false" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -48,6 +52,7 @@
     &quot;Python.chain-map-demo.executor&quot;: &quot;Run&quot;,
     &quot;Python.config-parser1.executor&quot;: &quot;Run&quot;,
     &quot;Python.convert-ini-json.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mysql-demo.executor&quot;: &quot;Run&quot;,
     &quot;Python.ordered-dict-demo.executor&quot;: &quot;Run&quot;,
     &quot;Python.postgresql-demo.executor&quot;: &quot;Run&quot;,
     &quot;Python.read-file-demo (1).executor&quot;: &quot;Run&quot;,
@@ -59,7 +64,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Demo/PythonProjects/demo-python/Sources&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;ml.llm.LLMProjectConfigurable&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -67,7 +72,7 @@
       <recent name="C:\Demo\PythonProjects\demo-python\Sources" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.postgresql-demo">
+  <component name="RunManager" selected="Python.mysql-demo">
     <configuration name="chain-map-demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="demo-python" />
       <option name="ENV_FILES" value="" />
@@ -82,6 +87,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/collection-module/chain-map-demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mysql-demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="demo-python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/database-connectivity-demo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/database-connectivity-demo/mysql-demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -134,28 +161,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="read-pdf" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="demo-python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pdf-demo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Demo\PythonProjects\demo-python\pdf-demo\read-pdf.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="sqlite-demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="demo-python" />
       <option name="ENV_FILES" value="" />
@@ -180,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.mysql-demo" />
         <item itemvalue="Python.postgresql-demo" />
         <item itemvalue="Python.sqlite-demo" />
         <item itemvalue="Python.chain-map-demo" />
         <item itemvalue="Python.ordered-dict-demo" />
-        <item itemvalue="Python.read-pdf" />
       </list>
     </recent_temporary>
   </component>
