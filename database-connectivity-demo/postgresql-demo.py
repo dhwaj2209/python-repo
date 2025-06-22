@@ -16,9 +16,6 @@ cur.execute("""CREATE TABLE users(
             """)
 
 
-# Insert Operation
-#cur.execute("""INSERT INTO users(id, name)  VALUES (1, 'Paul'), (2, 'John')""")
-
 # Select All
 cur.execute("""select * from users""")
 result  = cur.fetchall()
