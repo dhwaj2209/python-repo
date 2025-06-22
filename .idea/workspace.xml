@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40fe2200-ba27-48cd-911d-e7c8097fd384" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/database-connectivity-demo/sql-server-demo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection-module/chain-map-demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/collection-module/chain-map-demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database-connectivity-demo/mysql-demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/database-connectivity-demo/mysql-demo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,34 +48,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.chain-map-demo.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.config-parser1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.convert-ini-json.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mysql-demo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ordered-dict-demo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.postgresql-demo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.read-file-demo (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.read-file-demo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.read-pdf.executor&quot;: &quot;Run&quot;,
-    &quot;Python.read-write-pdf.executor&quot;: &quot;Run&quot;,
-    &quot;Python.sql-server-demo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.sqlite-demo.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Demo/PythonProjects/demo-python/Sources&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;ml.llm.LLMProjectConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.chain-map-demo.executor": "Run",
+    "Python.config-parser1.executor": "Run",
+    "Python.convert-ini-json.executor": "Run",
+    "Python.mysql-demo.executor": "Run",
+    "Python.ordered-dict-demo.executor": "Run",
+    "Python.postgresql-demo.executor": "Run",
+    "Python.read-file-demo (1).executor": "Run",
+    "Python.read-file-demo.executor": "Run",
+    "Python.read-pdf.executor": "Run",
+    "Python.read-write-pdf.executor": "Run",
+    "Python.sql-server-demo.executor": "Run",
+    "Python.sqlite-demo.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "full.screen.before.presentation.mode": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Demo/PythonProjects/demo-python",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Demo\PythonProjects\demo-python\Sources" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.sql-server-demo">
+  <component name="RunManager" selected="Python.chain-map-demo">
     <configuration name="chain-map-demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="demo-python" />
       <option name="ENV_FILES" value="" />
@@ -187,8 +188,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.sql-server-demo" />
         <item itemvalue="Python.chain-map-demo" />
+        <item itemvalue="Python.sql-server-demo" />
         <item itemvalue="Python.postgresql-demo" />
         <item itemvalue="Python.mysql-demo" />
         <item itemvalue="Python.sqlite-demo" />
@@ -243,11 +244,6 @@
           <url>file://$PROJECT_DIR$/database-connectivity-demo/postgresql-demo.py</url>
           <line>43</line>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/collection-module/chain-map-demo.py</url>
-          <line>10</line>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

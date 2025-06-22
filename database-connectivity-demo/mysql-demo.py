@@ -1,5 +1,7 @@
 # MySql in Python - CRUD Operations
-# create connection from MYSQL in Pyton
+
+# Section: Create connection from MYSQL in Python
+# This section demonstrates how to establish a connection to MySQL using two different methods.
 import mysql.connector
 from mysql.connector import connection
 con = mysql.connector.connect(host="localhost",
@@ -14,8 +16,8 @@ con = connection.MySQLConnection(host="localhost",
 print("Connection1 is created")
 con.close()
 
-# create new table in MYSQL database in Python
-
+# Section: Create new table in MYSQL database in Python
+# This section demonstrates how to create a new table 'users' in the 'employee' database.
 from mysql.connector import connection
 dic = {
 "host":"localhost",
@@ -38,11 +40,8 @@ except mysql.connector.Error as err:
   print("Error message:", err.msg)  # error message
 
 
-# fetch many
-
-#result = cur.fetchmany(size = 2)
-
-# select records with where and order by clause
+# Section: Select records with WHERE and ORDER BY clause
+# This section demonstrates how to select records from the 'users' table with filtering and ordering.
 from mysql.connector import connection
 dic = {
 "host":"localhost",
@@ -64,8 +63,8 @@ try:
 except mysql.connector.Error as err:
     print("Connection is not established due to some error!")
 
-# update records on MYSQL in Pyton
-
+# Section: Update records on MYSQL in Python
+# This section demonstrates how to update a record in the 'users' table.
 from mysql.connector import connection
 dic = {
 "host":"localhost",
@@ -88,8 +87,8 @@ try:
 except mysql.connector.Error as err:
     print("Connection is not established due to some error!")
 
-# delete records from MYSQL in Pyton
-
+# Section: Delete records from MYSQL in Python
+# This section demonstrates how to delete records from the 'users' table based on conditions.
 from mysql.connector import connection
 dic = {
 "host":"localhost",
