@@ -49,31 +49,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.chain-map-demo.executor": "Run",
-    "Python.config-parser1.executor": "Run",
-    "Python.convert-ini-json.executor": "Run",
-    "Python.mysql-demo.executor": "Run",
-    "Python.ordered-dict-demo.executor": "Run",
-    "Python.postgresql-demo.executor": "Run",
-    "Python.read-file-demo (1).executor": "Run",
-    "Python.read-file-demo.executor": "Run",
-    "Python.read-pdf.executor": "Run",
-    "Python.read-write-pdf.executor": "Run",
-    "Python.sql-server-demo.executor": "Run",
-    "Python.sqlalchemy-demo (1).executor": "Run",
-    "Python.sqlalchemy-demo.executor": "Run",
-    "Python.sqlalchemy-session-demo.executor": "Run",
-    "Python.sqlite-demo.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "full.screen.before.presentation.mode": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Demo/PythonProjects/demo-python/sqlalchemy-demo",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.chain-map-demo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.config-parser1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.convert-ini-json.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mysql-demo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ordered-dict-demo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.postgresql-demo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.read-file-demo (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.read-file-demo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.read-pdf.executor&quot;: &quot;Run&quot;,
+    &quot;Python.read-write-pdf.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sql-server-demo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sqlalchemy-demo (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.sqlalchemy-demo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sqlalchemy-session-demo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sqlite-demo.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Demo/PythonProjects/demo-python/sqlalchemy-demo&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Demo\PythonProjects\demo-python\sqlalchemy-demo" />
