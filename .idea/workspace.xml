@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40fe2200-ba27-48cd-911d-e7c8097fd384" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/sqlalchemy-demo/sqlalchemy-demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sqlalchemy-demo/sqlalchemy-session-demo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collection-module/chain-map-demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/collection-module/chain-map-demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-connectivity-demo/mysql-demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/database-connectivity-demo/mysql-demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database-connectivity-demo/sqlite-demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/database-connectivity-demo/sqlite-demo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,21 +62,28 @@
     "Python.read-pdf.executor": "Run",
     "Python.read-write-pdf.executor": "Run",
     "Python.sql-server-demo.executor": "Run",
+    "Python.sqlalchemy-demo (1).executor": "Run",
+    "Python.sqlalchemy-demo.executor": "Run",
+    "Python.sqlalchemy-session-demo.executor": "Run",
     "Python.sqlite-demo.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "full.screen.before.presentation.mode": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Demo/PythonProjects/demo-python",
+    "last_opened_file_path": "C:/Demo/PythonProjects/demo-python/sqlalchemy-demo",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Demo\PythonProjects\demo-python\sqlalchemy-demo" />
       <recent name="C:\Demo\PythonProjects\demo-python\Sources" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Demo\PythonProjects\demo-python\sqlalchemy-demo" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.chain-map-demo">
+  <component name="RunManager" selected="Python.sqlalchemy-session-demo">
     <configuration name="chain-map-demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="demo-python" />
       <option name="ENV_FILES" value="" />
@@ -98,7 +106,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mysql-demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="sqlalchemy-demo (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="demo-python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -107,11 +115,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/database-connectivity-demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sqlalchemy-demo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/database-connectivity-demo/mysql-demo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sqlalchemy-demo/sqlalchemy-demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -120,7 +128,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="postgresql-demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="sqlalchemy-demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="demo-python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -133,7 +141,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/database-connectivity-demo/postgresql-demo.py" />
+      <option name="SCRIPT_NAME" value="C:\Demo\PythonProjects\demo-python\sqlalchemy-demo\sqlalchemy-demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -142,7 +150,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sql-server-demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="sqlalchemy-session-demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="demo-python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,11 +159,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/database-connectivity-demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sqlalchemy-demo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/database-connectivity-demo/sql-server-demo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sqlalchemy-demo/sqlalchemy-session-demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -188,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.chain-map-demo" />
-        <item itemvalue="Python.sql-server-demo" />
-        <item itemvalue="Python.postgresql-demo" />
-        <item itemvalue="Python.mysql-demo" />
+        <item itemvalue="Python.sqlalchemy-session-demo" />
+        <item itemvalue="Python.sqlalchemy-demo (1)" />
+        <item itemvalue="Python.sqlalchemy-demo" />
         <item itemvalue="Python.sqlite-demo" />
+        <item itemvalue="Python.chain-map-demo" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +250,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/database-connectivity-demo/postgresql-demo.py</url>
-          <line>43</line>
+          <line>40</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
